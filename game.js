@@ -93,6 +93,6 @@ function update() {
     }
 
        // Update the joystick position relative to the camera
-        joystick.originalX = this.cameras.main.worldView.left + 400;
+        joystick.originalX = this.cameras.main.worldView.left + 150;
         joystick.originalY = this.cameras.main.worldView.bottom - 150;
 }
